@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languages Page</title>
+    <link rel="stylesheet" href="{% static 'home/css/languages.css' %}">
+</head>
+<body>
+
+<div class="banner">
+    <div class="navbar">
+        <img src="{% static 'home/images/ceu.png' %}" alt="Logo" class="logo">
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'aboutme' %}">About Me</a></li>
+            <li><a href="{% url 'project' %}">Projects</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+        <div class="content">
+            <h1>Languages</h1>
+            <!-- Container for the description -->
+            <div class="description-container">
+                <p>I have proficiency in several programming and markup languages, including Python, Java, HTML, CSS, and MySQL. With Python, I can develop versatile applications, scripts, and automate tasks efficiently. Java is another language I'm skilled in, allowing me to build robust and scalable applications, especially for Android development. Additionally, I'm proficient in front-end web development technologies such as HTML and CSS, enabling me to create visually appealing and responsive web interfaces. Furthermore, my expertise in MySQL allows me to design and manage databases effectively, ensuring data integrity and optimal performance..</p>
+            </div>
+        </div>
+        
+
+</body>
+</html>
